@@ -1,3 +1,9 @@
+# Data
+public/DialEval-1
+
+# Build
+public/build
+
 # Logs
 logs
 *.log
