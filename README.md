@@ -34,10 +34,19 @@ python -m http.server
 
 6. Open a dialogue browser with a json path
 
-e.g. http://localhost:5000/?jsonpath=/DialEval-1/dataset/train_en/4019367509916385.json
+e.g. http://localhost:8000/?jsonpath=/DialEval-1/dataset/train_en/4019367509916385.json
 
 
 ## Dependencies
 
 - https://svelte.dev/
-  - You don't have to install Svelte because a bundled script was pushed.
+- https://d3js.org/
+
+## Fonts / Icons
+
+- https://fonts.google.com/
+- https://fontawesome.com/
+
+## Development (Customization)
+
+Edit `src/components/*.svelte` files and run `npm run dev`.
