@@ -446,7 +446,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (131:46) 
+    // (132:46) 
     function create_if_block_1(ctx) {
     	let i;
 
@@ -464,7 +464,7 @@ var app = (function () {
     	};
     }
 
-    // (129:10) {#if turn.sender == 'customer'}
+    // (130:10) {#if turn.sender == 'customer'}
     function create_if_block(ctx) {
     	let i;
 
@@ -482,7 +482,7 @@ var app = (function () {
     	};
     }
 
-    // (126:6) {#each turn.utterances as utterance, utterance_i}
+    // (127:6) {#each turn.utterances as utterance, utterance_i}
     function create_each_block_1(ctx) {
     	let div2;
     	let div0;
@@ -509,10 +509,10 @@ var app = (function () {
     			div1 = element("div");
     			t1 = text(t1_value);
     			t2 = space();
-    			attr(div0, "class", "icon svelte-1cn7s5c");
+    			attr(div0, "class", "icon svelte-1rbxsyz");
     			toggle_class(div0, "invisible", /*utterance_i*/ ctx[10] > 0);
-    			attr(div1, "class", "baloon svelte-1cn7s5c");
-    			attr(div2, "class", "utterance svelte-1cn7s5c");
+    			attr(div1, "class", "baloon svelte-1rbxsyz");
+    			attr(div2, "class", "utterance svelte-1rbxsyz");
     		},
     		m(target, anchor) {
     			insert(target, div2, anchor);
@@ -546,7 +546,7 @@ var app = (function () {
     	};
     }
 
-    // (123:2) {#each turns as turn, turn_i}
+    // (124:2) {#each turns as turn, turn_i}
     function create_each_block(ctx) {
     	let div3;
     	let div0;
@@ -592,10 +592,10 @@ var app = (function () {
     			div1 = element("div");
     			create_component(barchart.$$.fragment);
     			t1 = space();
-    			attr(div0, "class", "utterances svelte-1cn7s5c");
-    			attr(div1, "class", "nuggetbar svelte-1cn7s5c");
-    			attr(div2, "class", "turn-info svelte-1cn7s5c");
-    			attr(div3, "class", "turn svelte-1cn7s5c");
+    			attr(div0, "class", "utterances svelte-1rbxsyz");
+    			attr(div1, "class", "nuggetbar svelte-1rbxsyz");
+    			attr(div2, "class", "turn-info svelte-1rbxsyz");
+    			attr(div3, "class", "turn svelte-1rbxsyz");
     			toggle_class(div3, "left", /*turn*/ ctx[5].sender == "customer");
     			toggle_class(div3, "right", /*turn*/ ctx[5].sender == "helpdesk");
     		},
@@ -698,7 +698,7 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr(div, "class", "turns svelte-1cn7s5c");
+    			attr(div, "class", "turns svelte-1rbxsyz");
     		},
     		m(target, anchor) {
     			insert(target, div, anchor);

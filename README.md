@@ -1,5 +1,7 @@
 # dialogue-browser
 
+![](./ss.png)
+
 ## How to use
 
 1. Prepare the DialEval-1 dataset.

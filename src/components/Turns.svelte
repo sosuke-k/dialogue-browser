@@ -78,15 +78,16 @@
     padding: 15px 20px;
     border-radius: 10px;
     position: relative;
-    background-color: #D9F0FF;
   }
 
   .turn.left .baloon {
     margin-left: 30px;
+    background-color: #D9F0FF;
   }
 
   .turn.right .baloon {
     margin-right: 30px;
+    background-color: #BCF5A9;
   }
 
   .baloon:before {
@@ -107,7 +108,7 @@
 
   .turn.right .baloon:before {
     right: -20px;
-    border-left: 10px solid #D9F0FF;
+    border-left: 10px solid #BCF5A9;
   }
 
   .turn-info {
